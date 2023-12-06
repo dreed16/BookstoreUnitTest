@@ -35,7 +35,10 @@ public class Reservation {
 		return customer;
 	}
 	
-	public void generateReservationNumber();
+	public void generateReservationNumber()
+	{
+		
+	}
 	
-		Reservation
+		//Reservation
 }

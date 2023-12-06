@@ -8,6 +8,7 @@ public class AudioBook extends Book {
 	public AudioBook(String isbn, String title, String author, Date publishDate, int quantity, String narrator) {
 		super(isbn, title, author, publishDate, quantity);
 		// TODO Auto-generated constructor stub
+		this.narrator = narrator;
 	}
 
 	public String getNarrator() {

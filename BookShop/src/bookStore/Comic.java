@@ -8,6 +8,7 @@ public class Comic extends Book {
 	public Comic(String isbn, String title, String author, Date publishDate, int quantity, String illustrator) {
 		super(isbn, title, author, publishDate, quantity);
 		// TODO Auto-generated constructor stub
+		this.illustrator = illustrator;
 	}
 
 	public String getIllustrator() {
